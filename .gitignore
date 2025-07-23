@@ -1,0 +1,17 @@
+# Archivos de entorno - ¡MUY IMPORTANTE! Nunca subir este archivo.
+.env
+
+# Directorios de cache de Python
+__pycache__/
+
+# Archivos de base de datos local (si se usa para pruebas)
+*.db
+*.sqlite3
+
+# Directorios de entornos virtuales de Python
+.venv/
+venv/
+
+# Archivos de configuración de IDEs populares
+.vscode/
+.idea/
