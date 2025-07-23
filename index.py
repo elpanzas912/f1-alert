@@ -189,11 +189,9 @@ def main():
         name="Revisión periódica de carreras"
     )
     
-    # --- Iniciar el planificador ---
-    scheduler.start()
-    logger.info("Planificador de tareas iniciado con persistencia.")
-
     # --- Iniciar el bot usando Webhooks (ideal para Railway) ---
+    # La aplicación se encarga de iniciar el planificador automáticamente al llamar a run_webhook.
+    logger.info("Iniciando el planificador y el bot...")
     logger.info(f"Iniciando bot con webhook en el puerto {PORT}")
     application.run_webhook(
         listen="0.0.0.0",
