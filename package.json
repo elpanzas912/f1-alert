@@ -1,0 +1,24 @@
+{
+  "name": "f1-telegram-bot-js",
+  "version": "1.0.0",
+  "description": "Un bot de Telegram para notificar sobre sesiones de F1, escrito en JavaScript para Railway.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "telegram",
+    "bot",
+    "f1",
+    "railway"
+  ],
+  "author": "Gemini",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.2",
+    "dotenv": "^16.4.5",
+    "node-schedule": "^2.1.1",
+    "node-telegram-bot-api": "^0.66.0",
+    "pg": "^8.12.0"
+  }
+}

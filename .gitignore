@@ -1,17 +1,14 @@
-# Archivos de entorno - ¡MUY IMPORTANTE! Nunca subir este archivo.
+# Archivos de entorno
 .env
 
-# Directorios de cache de Python
-__pycache__/
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
 
-# Archivos de base de datos local (si se usa para pruebas)
-*.db
-*.sqlite3
+# Dependencias
+node_modules/
 
-# Directorios de entornos virtuales de Python
-.venv/
-venv/
-
-# Archivos de configuración de IDEs populares
+# Archivos de configuración de IDEs
 .vscode/
 .idea/

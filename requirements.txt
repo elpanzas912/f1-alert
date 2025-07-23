@@ -1,6 +1,0 @@
-python-telegram-bot[webhooks]
-requests
-python-dotenv
-apscheduler
-SQLAlchemy
-psycopg2-binary
